@@ -1,13 +1,15 @@
 class Shoe
   attr_accessor :color, :size, :material, :condition
-  attr_reader :brand
+  attr_reader :brand, 
   
   def initialize(brand)
     @brand = brand
   end 
   
-  def condition
-    puts "shoe has been repaired"
+  def condition(condition)
+    @condition=condition
   end 
 end
+
+
 
