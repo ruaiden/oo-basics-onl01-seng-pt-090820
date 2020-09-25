@@ -9,6 +9,5 @@ class Shoe
   def condition
     puts "shoe has been repaired"
   end 
-  
-  
 end
+
