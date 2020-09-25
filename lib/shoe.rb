@@ -11,8 +11,8 @@ class Shoe
   end 
   
   def cobble
-    puts "Shoe has been repaired"
-    @condition==repaired
+    puts "Your shoe is as good as new!"
+    @condition=repaired
   end
 end
 
